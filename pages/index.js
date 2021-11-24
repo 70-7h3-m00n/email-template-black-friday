@@ -7,12 +7,14 @@ import {
 import { PostonentsProvider } from 'postonents'
 import {
   HeaderLogo,
+  Hello,
   EmailWrapper,
   HeaderLinks,
   LeaderboardsMonth,
   LeaderboardsSixMonths,
   Banner,
   Winner,
+  Promocode,
   Prize,
   FooterContacts,
   FooterLinks,
@@ -68,10 +70,8 @@ const Home = ({ data }) => {
         <HeaderLogo />
         <HeaderLinks />
         <Banner />
-        <Winner data={twoMonthsInFromAugustSumUp} />
-        <LeaderboardsMonth data={twoMonthsInFromAugustSumUp} />
-        <Prize data={dataFromJulySumUp} />
-        <LeaderboardsSixMonths data={dataFromJulySumUp} />
+        <Hello />
+        <Promocode />
         <FooterContacts />
         <FooterLinks />
         <Footer />

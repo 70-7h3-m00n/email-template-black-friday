@@ -11,17 +11,10 @@ const Banner = () => {
   return (
     <Container alignment='center' style={stls.container}>
       <Row>
+        <Link href={'https://ipo.msk.ru/'}>
         <Column style={stls.column}>
-          <h1 style={stls.title}>
-            Московский <br />
-            институт <br />
-            профессионального <br />
-            образования
-          </h1>
-          <Link href={'https://ipo.msk.ru/'} style={stls.btn}>
-            Перейти на сайт
-          </Link>
         </Column>
+        </Link>
       </Row>
     </Container>
   )

@@ -12,7 +12,7 @@ const Footer = () => {
       <Container alignment='center'>
         <Row>
           <Column>
-            &copy; {new Date().getFullYear()} МИПО
+            &copy; {new Date().getFullYear()} Институт Профессионального Образования
           </Column>
         </Row>
       </Container>
